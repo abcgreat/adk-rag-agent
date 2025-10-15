@@ -1,0 +1,27 @@
+# venvs (any depth)
+.venv/
+venv/
+*/.venv/
+*/venv/
+
+# Python caches
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# Env / secrets
+.env
+**/.env
+
+# IDE
+.vscode/
+.DS_Store
+
+# Local data
+*.jsonl
+*.sqlite
+*.db
+
+# Google Cloud SDK blobs
+google-cloud-sdk/
+google-cloud-cli-*.tar.gz
